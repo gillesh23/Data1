@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(./Afbeeldingen/Swimming_Atlanta_Paralympics_57_-min.jpg);
+      min-height: 100%;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Context</a>
+    <a href="#Assignment 1" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Assignment 1</a>
+    <a href="#Assignment 2" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Assignment 2</a>
+    <a href="#Assignment 3" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Assignment 3</a>
+    <a href="#Assignment 4" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Assignment 4</a>
+    <a href="#The Team" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">The Team</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Data 1</b></h1>
+    <p><strong>Para-Swimming Amsterdam by Data Team 16</strong></p>
+    <p>Amsterdam wants to host an open-water swimming event for people with a disability in May of 2024. This event is aiming to be on par with the Paralympic swimming events that Paris is hosting later that year. The swimming event will be a 5km race and will take place in the canals of Amsterdam. The information you can find on this page is to advise the municipality of Amsterdam on the different aspects of hosting an event like this. From the safety of the swimmers up to managing the boats in the canals and the tourists that this event will bring about.</p>
+        <img src="./Afbeeldingen/Swimming_Atlanta_Paralympics_57_-min.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="./Afbeeldingen/Swimming_Atlanta_Paralympics_57_-min.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+      </header>
+
+  
+  <!-- Assignment 1 -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="Assignment 1">
+    <h2>Assignment 1</h2>
+    <hr class="w3-opacity">
+    <br><strong>The event can’t have an impact on commercial water transport.</strong></br> 
+      Commercial water transport is limited to the route between the North Sea Canal and Ijsselmeer lake, passing by the north side of the Central Station, leaving the waterways south of the station available for the event without disrupting the commercial water transport. 
+      Source: Rijkswaterstaat scheepvaart </p>
+      <strong>It would be appreciated if the event also has small impact on the routes of the canal boats.</strong></br>  
+      According to this source, which gives the crowdiness on waterways in Amsterdam, our route has a minor effect on the passanger canal boats, as it evades most busy intersections and waterways.</br>  
+      Source: Grachtenmonitor 2022 - openresearch.amsterdam</p>  
+      <strong>What is the pollution level of the canals and is there data from all the canals? You can swim next to the AMS but the water there is heavily monitored, is this the same for the rest of Amsterdam?</strong></p> 
+      Based on the two quotes below, the water of the canal waters appears to be on par with official swimming sites, thus there should be little to no pollution of the canal waters.</p>  
+      No, there is no data for all canals. Data is only available from disctriptiv sources (such as those below) or only for specific locations were testing was done. </p>
+      Water in Amsterdams seems to be only measured on two specific points (EU dataset).</br>
+Source: EEA Datahub Water quality</p> 
+
+   From part 5.2 waterkwaliteit</br>
+Source:https://openresearch.amsterdam/nl/page/84286/handboek-zwemmen-zomerrecreatie-aan-het-water</br>
+"De waterkwaliteit in de Amstel en de grachten is een groot deel van het zomerhalfjaar voldoende van
+kwaliteit om te zwemmen. Meestal is dat zo als er genoeg doorstroming is. Indicatoren voor mogelijk
+slechte waterkwaliteit zijn: stilstaand water, water met blauwalg, water met dode dieren en water met
+grote groepen vogels.</br>
+De bacteriologische zwemwaterkwaliteit is tijdelijk slechter als er overstorten uit het gemengde,
+gemeentelijke rioolstelsel plaatsvinden. Dit gebeurt gemiddeld vijf keer per zomerhalfjaar bij hevige
+regenval. De waterkwaliteit herstelt zich daarna weer na enkele dagen. Per zomerhalfjaar zijn er
+gemiddeld 155 dagen (van de 180) waarop de waterkwaliteit gemiddeld genomen voldoende is om te
+zwemmen.</br>
+Er is op hoofdlijnen verschil in waterkwaliteit zichtbaar tussen de volgende delen van het Amsterdamse
+open water:
+  - Water van IJ, Amsterdam-Rijnkanaal en open zijarmen is door de goede doorstroming doorgaans
+van goede zwemkwaliteit (maar vanwege de scheepvaart gevaarlijker om in te zwemmen).
+  - Waterkwaliteit in de Amstelboezem (Amstel, (zij)grachten in Centrum, Oost en Zuid), de boezem
+van de Haarlemmermeer (o.a. Nieuwe Meer, Ringvaart), het IJmeer, de grachten en de grote plassen
+is gemiddeld goed genoeg van kwaliteit, mede door de doorstroming. Na hevige regenbuien is de
+kans op overstorten van rioleringen groot en is het verstandig enkele dagen niet te zwemmen.
+  - In de polders in Buitenveldert, Nieuw-West en Zuidoost stroomt het water minder door en is de
+kwaliteit in algemene zinslechter."</p>
+
+From 5.3 Wastewater Disposal, Treatment, and Surface Water Quality </br>
+Source: https://www.researchgate.net/publication/351001263_Retrospective_Analysis_of_Water_Management_in_Amsterdam_The_Netherlands</br> 
+"As a result, water quality in the river Amstel and in the canal zone meets high-quality standards as applied in ofﬁcial swimming locations most of the time. Only aftersewage overﬂow, which occurs on average ﬁve times per year, water quality is unsuitablefor swimming for three to ﬁve days after an overﬂow."</p>     
+
+<strong>Think of a few data sets that are of use for giving a proper advice to the municipality.</strong></br> 
+Data sets on water quality, data sets on routes of transport on water, data sets on routes of canal boats.</p>
+
+<strong>What type of data format is the information you found stored in? Are they Excel files, csv files or some other format? Try to open the files and see if they are human readable (e.g., are they text files or binary – in this case you see a lot of weird characters).</strong></br> 
+The data on water quality on certain parameters in the 2020 jaarboek is found in excel files, the files are human readable.</br> 
+The data on commercial water transport from Rijkswaterstaat is found as (geo)JSON por csv files, the files are not human readable.</p>
+
+<strong>Is the data stored numerical?</strong></br>
+Data from several parameters in the 2020 jaarboek on water quality in surface water is stored numerically in excel.</p>  
+
+<strong>If you have geo spatial data, can you figure out how the data is geometrically represented (points, lines, surfaces, hyper planes)?</strong></br> 
+Some of the geo spatial data, from private boats as well as passenger boats is indicated in points that represent sites that are visited. Other maps represent points where crowdiness was observed.</br>  
+Geo spatial data on commercial water transport is presented as lines.</p> 
+
+<strong>If it is temporal data, what is the interval?</strong></br> 
+There is no temporal data.</p>  
+
+<strong>Dataset printed if possible</strong></br>
+<img src="./Afbeeldingen/Week1/grafiek_vanuit_code.png" alt="Water clearity in graph"></p>
+
+<strong>Swiming route</strong></br>
+Based on the found information we created a possible route for the event. You can see where canals will have to be bloked from the boats.</br>
+<figure>
+  <figcaption>Swimming route</figcaption>
+<img src="./Afbeeldingen/Week1/zwemroute_kaart_Tekengebied_1-min.jpg" alt="Possible swimmingroute" width="700" height="700"></p>
+</figure>
+
+<strong>To see the work combined in Phyton-code, folow the link below.</strong></br>
+<img src="./Afbeeldingen/Week1/GitHub-Mark.png" widht="100" height= "100" alt="GitHub logo"> <a href=https://github.com/gillesh23/Data1/blob/main/Assignment%201%20water.ipynb>See GitHub-page</a></p>
+
+<!-- Assignment 2 -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="Assignment 2">
+    <h2>Assignment 2</h2>
+    <hr class="w3-opacity">
+    <strong>How many of the canal boats currently in use are diesel/fossil fuel driven and how 
+many boats are electrical driven?</strong></br>
+In 2020 there were 550 canal boats in Amsterdam, owned by multiple companies. According to Reuters (2020), 75% of these boats (412 boats) are electrical driven. We suppose that the rest of the boats is fossil fuel driven.</p>
+
+<strong>Are there peak times for the canal boats?</strong></br>
+There are certain peak times of the canal boats in Amsterdam (Grachtenmonitor, 2022). In the graph below, the average amount of boats per hour on a day is visualized.</p> 
+<figure>
+  <figcaption>Average amount of boats per hour</figcaption>
+<img src="./Afbeeldingen/Week2/Afbeelding1.png" alt="Peekhours"></p>
+</figure>
+
+In the graph below, the weekly rhytm of canal boats in Amsterdam can be seen.</p>
+<figure>
+  <figcaption>Weekly rhytm of canal boats</figcaption> 
+<img src="./Afbeeldingen/Week2/Afbeelding2.png" alt="Peekhours"></p>
+</figure>
+
+In the table below, the passages per hour of the day on certain locations in Amsterdam can be seen. It is clear that there are some very busy spots at certain times.</p> 
+<figure>
+  <figcaption>Passages Per Hour</figcaption> 
+<img src="./Afbeeldingen/Week2/Afbeelding3.png" alt="Passages per hour"></p>
+</figure></p>
+
+<strong>Try to compare the energy use of the canal boats to some other activity in the city. 
+Use canal boats more or less energy in relation to their carbon footprint compared to 
+these other activities?</strong></br> 
+According to Instalatiejournaal (https://www.installatiejournaal.nl/10946/rondvaartboten-ombouwen-van-diesel-naar-elektrisch) al electrical canal boats that are charged overnight use 350 kWh of energy and they can then sail all day. We use this number, but do acknowledge that there is no solar power at night. Furthermore, the batteries have to be managed differently to use them optimally and more sustainably. It is however an indication of the energy that is used by the boats.</p>
+
+The article by the correspondent (https://decorrespondent.nl/4256/factcheck-windmolens-kosten-meer-energie-dan-ze-opleveren-en-helpen-het-klimaat-niet/c2faef7a-df3a-0150-1a71-204f4ea80f44#:~:text=Daaruit%20blijkt%20dat%20de%20gemiddelde,gemiddeld%20900%20gram%20per%20kWh) mentions that the average emissions for wind energy lie between 8 grams CO2/kWh and 34 grams CO2/kWh. For simplicity, in our calculations, we use the average of the highest and lowest values of these different studies. Meaning that we use a CO2 emission per kWh of 21 gram.</p>  
+
+For solar energy, we do the same, with data from wat is duurzaam: (https://www.wattisduurzaam.nl/35498/energie-opwekken/zonne-energie/europese-zonnepanelen-nog-iets-beter-voor-klimaat-dan-chinese/#:~:text=De%20wetenschappers%20aan%20het%20Duitse,n%20800%20gram%20CO2%20uit). For solar energy, we thus use 21.5 grams of CO2 emission per kWh.</p> 
+
+This gives us the following information, of which the calculations can be found via the GitHub-link below:</br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CO2 Emission Data</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Grams of CO2 emission</th>
+            <th>One boat</th>
+            <th>412 boats</th>
+        </tr>
+        <tr>
+            <td>Electricity by Wind</td>
+            <td>7350</td>
+            <td>3,028,200</td>
+        </tr>
+        <tr>
+            <td>Electricity by Solar</td>
+            <td>7525</td>
+            <td>3,100,300</td>
+        </tr>
+    </table>
+</body>
+</html>
+</p>
+Overal both energy use and CO2 emissions of the canal boats is higher both per individual bout compared to an individual eletric bus as wel as the totals, however there are only 44 electric busses where as there are 412 electric canal boats and 138 diesel ones.</p>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #000; /* Voeg een 1px solide rand toe aan elke cel */
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>Engine type</th>
+    <th>Power (kWh) [1]</th>
+    <th>Hours in use/day</th>
+    <th>Energy use/year (kWh)</th>
+    <th>Footprint grey (kg CO2/year) [2]</th>
+    <th>Footprint windpower (kg CO2/year) [3]</th>
+    <th>Footprint solar (kg CO2/year) [4]</th>
+  </tr>
+  <tr>
+    <td>Electric</td>
+    <td>26</td>
+    <td>10</td>
+    <td>39,098,800</td>
+    <td>14,466,556</td>
+    <td>Upper/lower limit 1,329,359-312,790</td>
+    <td>Upper/lower limit 1,172,964-508,284</td>
+  </tr>
+</table>
+</p>
+[1]https://lynchmotors.co.uk/marine-motors/bluefin.html</br> 
+[2]https://www.nn.nl/Wonen/wat-is-CO2-uitstoot.htm#:~:text=1%20kWh%20stroom%20is%20circa,procent%20meer%20dan%20in%202020.</br>
+[3]https://decorrespondent.nl/4256/factcheck-windmolens-kosten-meer-energie-dan-ze-opleveren-en-helpen-het-klimaat-niet/c2faef7a-df3a-0150-1a71-204f4ea80f44#:~:text=Daaruit%20blijkt%20dat%20de%20gemiddelde,gemiddeld%20900%20gram%20per%20kWh.</br> 
+[4]https://www.wattisduurzaam.nl/35498/energie-opwekken/zonne-energie/europese-zonnepanelen-nog-iets-beter-voor-klimaat-dan-chinese/#:~:text=De%20wetenschappers%20aan%20het%20Duitse,n%20800%20gram%20CO2%20uit.</p>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #000; /* Voeg een 1px solide rand toe aan elke cel */
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>Engine type</th>
+    <th>Average litres/hour [5]</th>
+    <th>Hours in use/day</th>
+    <th>Energy use/year (kWh)</th>
+    <th>Footprint (kg CO2/year) [6]</th>
+  </tr>
+  <tr>
+    <td>Diesel</td>
+    <td>4</td>
+    <td>10</td>
+    <td>2.014.800 L20.148.000 kWh </td>
+    <td>5.250.568,8 </td>
+  </tr>
+</table></p>
+[5]https://www.klompmaker.nl/verhuurinformatie#:~:text=Gemiddeld%20ligt%20het%20verbruik%20tussen%20de%203%20tot%205%20liter%20per%20uur. </br>
+[6]https://www.anwb.nl/auto/nieuws-en-tips/alles-over-uitstoot</p>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #000; /* Voeg een 1px solide rand toe aan elke cel */
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>Bus </th>
+    <th>Energy use/year (kWh) [7] </th>
+    <th>Footprint grey (kg CO2/year) [2] </th>
+    <th>Footprint windpower (kg CO2/year) [3]</th>
+    <th>Footprint solar power (kg CO2/year) [4] </th>
+  </tr>
+  <tr>
+    <td>Electric</td>
+    <td>3.300.000 </td>
+    <td>1.834.800 </td>
+    <td>Upper limit 112.200 
+Lower limit 99.000 </td>
+    <td>Upper limit 26.400 
+Lower limit 42.900</td>
+  </tr>
+</table></p>
+
+[7]https://waterstofgate.nl/Praktijk/Businesscase-Bussen-verbruik/Businesscase-Bussen-CO2-uitstoot/#:~:text=Zijn%20er%20zorgen%20over%20de,en%20verbruikt%2075.000%20kWh%20elektriciteit.</p> 
+
+<strong>Would you consider it economically feasible?</strong></br>  
+
+Converting a canal boat with a diesel engine to an electric engine is expensive. For a typical 23m (75ft.) tourist boat, this will cost around 165.000 to 250.000 euros. The conversion process takes about three months. The engines are quieter, cleaner and cheaper to run. Boat companies earn their investment back in about 12 years, according to the Paris Process on Mobility and Climate, a body that is supporting sustainable transport projects.</p>  
+
+A lot of boat companies chose to keep their old boats and only convert the engine instead of replacing the old boats. This is a more circular solution and keeps the charm of the old canal boats in the city. At ‘Rederij Kooij’ they calculated, that conversion to an electric driven engine is way cheaper than the old diesel enigines.</p> 
+
+<strong>How many support boats and vehicles are needed for the Paralympics event only.</strong></br>  
+
+A minimum of seven (7) boats is required. These safety crafts should be able to hold at least three people.</p>  
+
+<strong>If only clean energy can be used, how many solar panels or wind turbines are needed?</strong></br> 
+
+A boat from greenboatsolutions would require around 2,4 kW. If this boat would sail for a timespan of 5 hours. Race takes at least 2 hours at a speed of 2.5 min/100m + warm up and other pre and post activities. This means it would require 7 boats * 2.4kW * 3600 * 4 = 67.2kWh?</br> 
+
+Source: Windturbines https://www.windmolenskopen.nl/opbrengst-windmolens/</p>  
+
+A windturbine with arms of 7m, at a windspeed of 7m/s generates on a yearly basis 35127kwh, so on a daily basis this would be 96kwh.</p>  
+
+<strong>Is it possible to accommodate these facilities within the city?</strong></br> 
+
+A wind turbine is hard to place politically and when taking into account the neighbours. It is however possible and should be done, as there will be some in Noord and probably some at the port areas.</p>  
+
+According to pure-energie.nl, 1 solar panel is expected to generate 352 kwh per year, meaning that they would generate about 0.9 kwh per day. Then 67.2kWh/0.9kWh would be around 70-80. This is very feasible in Amsterdam.</p>  
+
+<strong>Would their be any effect on the water quality if there are less/no canal boats using 
+fossil fules?</strong></br> 
+
+Electric boats play an important role in maintaining clean water. They eliminate the risk of fuel or oil leaks into the water. “Boat engines are designed to deliver a large amount of power in a relatively small package. As a result, a certain amount of the fuel that enters into a motor is discharged unburned, and ends up in the water.” - Asplund (2000).</p>  
+
+<strong>Refrences</strong></br> 
+
+https://dnr.wi.gov/lakes/publications/documents/lakes.pdf</br> 
+
+https://openresearch.amsterdam/nl/page/92981/grachtenmonitor-2022</p>
+
+<strong>To see the work combined in Phyton-code, folow the link below.</strong></br>
+<img src="./Afbeeldingen/Week1/GitHub-Mark.png" widht="100" height= "100" alt="GitHub logo"> <a href=https://github.com/gillesh23/Data1/blob/main/Assignment%202%20Energy%20final%20version.ipynb>See GitHub-page</a></p>
+   
+<!-- End Assignment 2 Section -->
+  </div>
+
+<!-- Assignment 3 -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="Assignment 3">
+    <h2>Assignment 3</h2>
+    <hr class="w3-opacity">
+    <p><strong>What Amsterdam will receive from tourist tax if the event lasts a week and you will
+have 30.000 visitors?</strong></br>
+Amsterdam will have a tax income from the paralympic visitors. From the overnight stays of these visitors in hotels and Airbnb’s the tax income has been calculated for a total of 30.000 visitors who will be staying for a total of seven days.</br> 
+The tax income from the hotels would be a total of €1.048.740,-</br>
+The tax income from the Airbnb’s would be a total of €1.402.798,11</p>
+
+<strong>Plot the amount of Airbnb locations per neighbourhood.</strong></br>
+Below an overview of the different neighbourhoods with the amount of Airbnb’s can be found. It is clear that the western parts of the city host the most locations. This will influence how busy these parts of the city will be during these seven days.</p>
+   
+   <style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #000; /* Voeg een 1px solide rand toe aan elke cel */
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>Neighbourhood</th>
+    <th>Amount of Airbnb's</th>
+  </tr>
+  <tr>
+    <td>De Baarsjes - Oud-West</td>
+    <td>1382</td>
+  </tr>
+  <tr>
+    <td>Centrum-West</td>
+    <td>1006</td>
+  </tr>
+  <tr>
+    <td>De Pijp - Rivierenbuurt</td>
+    <td>935</td>
+  </tr>
+  <tr>
+    <td>Centrum-Oost</td>
+    <td>793</td>
+  </tr>
+  <tr>
+    <td>Zuid</td>
+    <td>599</td>
+  </tr>
+  <tr>
+    <td>Westerpark</td>
+    <td>584</td>
+  </tr>
+  <tr>
+    <td>Oud-Oost</td>
+    <td>506</td>
+  </tr>
+  <tr>
+    <td>Bos en Lommer</td>
+    <td>424</td>
+  </tr>
+  <tr>
+    <td>Oud-Noord</td>
+    <td>402</td>
+  </tr>
+  <tr>
+    <td>Oostelijk Havengebied - Indische Buurt</td>
+    <td>320</td>
+  </tr>
+  <tr>
+    <td>Watergraafsmeer</td>
+    <td>262</td>
+  </tr>
+  <tr>
+    <td>Noord-West</td>
+    <td>218</td>
+  </tr>
+  <tr>
+    <td>IJburg - Zeeburgereiland</td>
+    <td>183</td>
+  </tr>
+  <tr>
+    <td>Slotervaart</td>
+    <td>164</td>
+  </tr>
+  <tr>
+    <td>Noord-Oost</td>
+    <td>137</td>
+  </tr>
+  <tr>
+    <td>Geuzenveld - Slotermeer</td>
+    <td>116</td>
+  </tr>
+  <tr>
+    <td>Buitenveldert - Zuidas</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>De Aker - Nieuw Sloten</td>
+    <td>74</td>
+  </tr>
+  <tr>
+    <td>Gaasperdam - Driemond</td>
+    <td>51</td>
+  </tr>
+  <tr>
+    <td>Bijlmer-Centrum</td>
+    <td>47</td>
+  </tr>
+  <tr>
+    <td>Osdorp</td>
+    <td>44</td>
+  </tr>
+  <tr>
+    <td>Bijlmer-Oost</td>
+    <td>39</td>
+  </tr>
+</table>
+</p> 
+
+<figure>
+  <figcaption>Amount of Airbnb's per neighbourhood</figcaption> 
+<img src="./Afbeeldingen/Week3/download.png" alt="Amount of Airbnb's"></p>
+</figure>
+
+<strong>Which street in Amsterdam has the most AirBnB apartments?</strong></br>
+  To see which streets in the city will endure the most stress from the tourist staying in the Airbnb’s the five streets with the most Airbnb’s have been located.</p>
+  <style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #000; 
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+  <table>
+  <tr>
+    <th>Street</th>
+    <th>Amount of Airbnb's</th>
+  </tr>
+  <tr>
+    <td>Nassaukade</td>
+    <td>141</td>
+  </tr>
+  <tr>
+    <td>Derde Egelantiersdwarsstraat</td>
+    <td>130</td>
+  </tr>
+  <tr>
+    <td>Hoofdweg</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>Prinsengracht</td>
+    <td>61</td>
+  </tr>
+  <tr>
+    <td>Keizersgracht</td>
+    <td>58</td>
+  </tr>
+</table></p>
+
+<strong>Try to cross reference the data from the AirBnB dataset with the BBGA. Can you figure
+out if all apartments of AirBnB are designated as housing? Which number of
+apartments are not rented out all the time but are also used as normal housing?</strong></br>
+Unfortunately, it wasn’t possible to find the part of Airbnb listings that are designated housing.</p>
+
+<strong>How many hotel rooms should be built if Amsterdam wants to accommodate the same
+number of tourists?</strong></br>
+If Amsterdam was to decide that they didn’t want Airbnb to accommodate part of the visitors, they would have to create an amount of hotel rooms to make sure all the visitors have a bed for the week.
+This would mean that there would have to be a total amount of 14713 bed extra. The average hotel room has 2.205642973412914
+This means that the city would need a total of 6670 hotel rooms extra to replace the Airbnb’s.</p>
+
+<strong>How many different licenses are issued?</strong></br>
+A total of 7288 licences have been issued.</p>
+
+<strong>To see the work combined in Phyton-code, folow the link below.</strong></br>
+<img src="./Afbeeldingen/Week1/GitHub-Mark.png" widht="100" height= "100" alt="GitHub logo"> <a href=https://github.com/gillesh23/Data1/blob/main/Assignment%203%20housing.ipynb>See GitHub-page</a></p>
+    </p>
+  <!-- End Assignment 3 Section -->
+  </div>
+
+<!-- Assignment 4 -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="Assignment 4">
+    <h2>Assignment 4</h2>
+    <hr class="w3-opacity">
+    <p><strong>Find the centre of the nodes of the swimming route.</strong></br>
+    In the following map, you can see the swimming route the swimmers will follow in red starting at the AMS institute. The blue dot on the map is the centre point of all the nodes of the swimming route.</p>
+
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<figure>
+  <figcaption>Swimming route with central point</figcaption>
+  <img class="responsive-image" src="./Afbeeldingen/Week4/Zwemroute_met_centraal_punt_Tekengebied_1.jpg" alt="Swimming route with central point">
+</figure>
+</body>
+</html></p>
+
+
+    <strong>Use the centre to find a suitable spot for the Event Headquarters.</strong></br>
+    Unfortunately, the exact address that is nearest to the centre point is Herengracht 586A which is a residential building. Unfortunately, all the buildings around the centre point are residential and are not property of the municipality the headquarters will have to be put up in the public space. Since the canals connecting to the swimming route will have to be closed for boats the Herengracht flowing into the Amstel could be used to build a floating headquarters. This way the narrow quays won't be taken up and can be used by supporters.
+The location of the floating headquarters would be on the Herengracht next to the Hendrick Jacobsz Staetsbrug. See the map below (red dot).</p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<figure>
+  <figcaption>Headquarters</figcaption>
+  <img class="responsive-image" src="./Afbeeldingen/Week4/hoofdkwartier_op_water-01.jpg" alt="Headquarters">
+</figure>
+</body>
+</html>
+</p>
+<strong>To see the work combined in Phyton-code, folow the link below.</strong></br>
+<img src="./Afbeeldingen/Week1/GitHub-Mark.png" widht="100" height= "100" alt="GitHub logo"> <a href=https://github.com/gillesh23/Data1/blob/main/Assignment%204%20transport.ipynb>See GitHub-page</a></p>
+  </div></p>
+
+    <strong>Find the closest bus and tram stops at the start and finish of the swimming route. How many people can be transported within an hour.</strong></br>
+    <strong>Can you find which bus and tram lines these are, and can you find their routes?</strong></p>
+    <strong>Start</strong></br>
+    For the starting point, there are five tramstops, serviced by two tramlines and one bus line (and one nightbus which we will not take into account).</br>
+The tramstops are shown with a red dot on the map below and the bus stops with a blue dot.</p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .responsive-image {
+    max-width: 90%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<figure>
+  <figcaption>Tram- and bus stops starting point</figcaption>
+  <img class="responsive-image" src="./Afbeeldingen/Week4/bus_en_tram_haltes.JPG" alt="Tram and bus stops start">
+</figure>
+</body>
+</html>
+</p>  
+Tramline 14</br>
+Frequency: 6/hour</br>
+Stops closeby: three stops, Plantage Lepellaan, Artis and Mr. Visserplein</p>
+
+Tramline 26</br>
+Frequency: 8/hour</br>
+Stops closeby: two stops, Kattenburgerstraat and Muziekgebouw Bimhuis</p>
+
+Busline 43</br>
+Frequency: 4/hour</br>
+Stops closeby: two stops, Kattenburgerstraat and Kadijksplein</p>
+
+Focussing on these tram- and bus lines a total amount of 6100 passengers per hour can be transported. This is the maximum if the largest trams are used. Smaller trams could bring this amount down to 4784 passengers.</p>
+
+<strong>Finish</strong></br>
+At the finish point, five tramlines service a total of five stops (in red on the map below). There are no bus stops in close proximity to the finish point.</p> 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<figure>
+  <figcaption>Tram stops finish point</figcaption>
+  <img class="responsive-image" src="./Afbeeldingen/Week4/Tram_haltes_finish.JPG" alt="Tram stops Finish">
+</figure>
+</body>
+</html>
+</p>
+Tramline 2</br>
+Frequancy: 8/hour</br>
+Stops closeby: two stops, Paleisstraat  and Nieuwezijds Kolk</p>
+
+Tramline 5</br>
+Frequancy: 5/hour</br>
+Stops closeby: two stops, Marnixplein, Bloemgracht</p>
+
+Tramline 12</br>
+Frequancey: 7/hour</br>
+Stops closeby: two stops, Paleisstraat and Nieuwezijds Kolk</p>
+
+Tramline 13</br>
+Frequancy: 8/hour</br>
+Stops closeby: three stops, Westermarkt, Paleisstraat and Nieuwezijds Kolk</p>
+
+Tramline 17</br>
+Frequancy: 9/hour</br>
+Stops closeby: three stops, Westermarkt, Paleisstraat and Nieuwezijds Kolk</p>
+
+Again depending on the size of the trams there can be a total of 9472 up to 12950 people transported per hour.</p>
+<strong>To see the work combined in Phyton-code, folow the link below.</strong></br>
+<img src="./Afbeeldingen/Week1/GitHub-Mark.png" widht="100" height= "100" alt="GitHub logo"> <a href=https://github.com/gillesh23/Data1/blob/main/Assignment%204%20transport%20question%203%20%26%204.ipynb>See GitHub-page</a></p>
+  </div></p>
+
+<strong>Calculate the centrality of the start, finish, and centre node of the route. Which centrality calculation makes the most sense.</strong></br>
+The centrality calculation makes the most sense because then it is visible how closeby certain points are. We make use of the waterway map to calculate this, the organization will mostly be in the headquarters and in this way they know how far points on the route are.</br>
+The centrality of the beginning is 0.12170860152135751</br>
+The centrality of the headquarters is 0.14689265536723164</br>
+The centrality of the finish is 0.12659768715763847</p>
+<strong>To see the work combined in Phyton-code, folow the link below.</strong></br>
+<img src="./Afbeeldingen/Week1/GitHub-Mark.png" widht="100" height= "100" alt="GitHub logo"> <a href=https://github.com/gillesh23/Data1/blob/main/Assignment%204%20transport.ipynb>See GitHub-page</a></p>
+    </p>
+
+
+<strong>Find all cafes, restaurants near the finish line. Walking time smaller than 10 minutes.</strong></br>
+In the map below all the cafes in a radius of a ten minute walk can be found. In the calculations a distance of 800 meters has been taken into account which is a bit les than the usual walking speed. This is done because of the expected amount of people. This will slowdown the walkingspeed.</p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<figure>
+  <figcaption>Cafes around the finish point</figcaption>
+  <img class="responsive-image" src="./Afbeeldingen/Week4/cafes.JPG" alt="Cafes Finish">
+</figure>
+</body>
+</html>
+</p>
+  
+<strong>To see the work combined in Phyton-code, folow the link below.</strong></br>
+<img src="./Afbeeldingen/Week1/GitHub-Mark.png" widht="100" height= "100" alt="GitHub logo"> <a href=https://github.com/gillesh23/Data1/blob/main/Assignment%204%20transport%20question%206.ipynb>See GitHub-page</a></p>
+    </p>
+
+  <strong>This concludes the recommendations and advice for the municipality of Amsterdam concerning the Para-swimming event in the Amsterdam Canals.</strong></p> 
+
+  <!-- The Team Section -->
+    <div class="w3-padding-32 w3-content w3-text-grey" id="The Team" style="margin-bottom:64px">
+    <h2>The Team</h2>
+    <hr class="w3-opacity">
+
+<style>
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container figure {
+    text-align: center;
+    flex: 1; 
+    position: relative;
+    margin: 5px;
+  }
+
+  .image-container img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .image-container figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    transform: translateY(-50%);
+  }
+</style>
+
+<div class="image-container">
+  <figure>
+    <img src="./hoofdjes/HermansGilles-min.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right">
+    <figcaption>Gilles Hermans</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./hoofdjes/WhatsApp_Image_2023-10-03_at_14.23.00_1_.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right">
+    <figcaption>Dirk Zegwaard</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./hoofdjes/WhatsApp_Image_2023-10-03_at_14.45.24_1_.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right">
+    <figcaption>Roemer Nanlohy</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./hoofdjes/HoltYoricq-min.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right">
+    <figcaption>Yoricq Holt</figcaption>
+  </figure>
+</div>
+
+  </footer>
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
